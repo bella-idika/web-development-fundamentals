@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: red;
+    height: 10rem;
+
+
+}
+.nav logo{
+    display: flex;
+    align-items: center;
+}
+.nav :link{
+    display: flex;
+    align-self: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-self: flex-start;
+    height: 10rem;
+}
+.image-container{
+    display: grid;
+    grid: 100 100 100 100/100 100 100 100;
+    gap: 1px;
+}
+.subtext{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto;
+    border: 1px solid black;
+}
+article p{
+    display: grid;
+  grid: auto;
+  background-color: blanchedalmond;
+  align-self: center;
+
+}
+header{
+    background-color: aqua;
+}
